@@ -3,7 +3,7 @@
 
 #include <vector>
 
-namespace FrisbeeRPA {
+namespace ObjectRPA {
 
 void PosGraph(const std::vector<int>& x, const std::vector<int>& y);
 

@@ -5,7 +5,7 @@
 #include <opencv2/videoio.hpp>
 #include <string>
 
-namespace FrisbeeRPA {
+namespace ObjectRPA {
 
 class VideoProcess {
  public:

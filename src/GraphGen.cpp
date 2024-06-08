@@ -4,11 +4,11 @@
 #include <matplot/matplot.h>
 #include "GraphGen.h"
 
-namespace FrisbeeRPA {
+namespace ObjectRPA {
 
 void PosGraph(const std::vector<int>& x, const std::vector<int>& y) {
   matplot::plot(x, y)->color("r").line_width(2);
-  matplot::title("Frisbee Path");
+  matplot::title("Object Path");
   matplot::xlabel("Horizontal");
   matplot::ylabel("Vertical");
   matplot::xlim({0, 1920});
