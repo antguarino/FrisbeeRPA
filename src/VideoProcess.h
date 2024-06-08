@@ -27,7 +27,7 @@ class VideoProcess {
   /**
    * Function to track the frisbee in the video and store its positions
    */
-  void Track();
+  void Track(const std::string& obj);
 
  private:
   cv::VideoCapture video_;
