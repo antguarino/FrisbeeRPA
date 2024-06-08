@@ -11,7 +11,6 @@
 #define FRISBEERPA_H
 
 #include "VideoProcess.h"
-#include "SpeedCalc.h"
 #include "GraphGen.h"
 
-#endif // FRISBEERPA_H
+#endif  // FRISBEERPA_H
