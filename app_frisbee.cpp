@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
   fris.lowerColor(lowerColor);
   fris.upperColor(upperColor);
 
-  fris.Track();
+  fris.Track("Frisbee");
 
   std::vector<cv::Point> positions = fris.positions();
 
