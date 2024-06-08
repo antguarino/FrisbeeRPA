@@ -1,10 +1,10 @@
-rit_add_executable(app_frisbee
+rit_add_executable(app_object
     SOURCES
-        app_frisbee.cpp
+        app_object.cpp
 )
 
-target_link_libraries(app_frisbee
+target_link_libraries(app_object
     PUBLIC
     PRIVATE
-    rit::ipcv_frisbee_rpa
+    rit::ipcv_object_rpa
 )
